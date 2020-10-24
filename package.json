@@ -1,0 +1,65 @@
+{
+  "name": "interview-code-test-e",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "moment": "2.26.0",
+    "react": "16.13.1",
+    "react-big-calendar": "0.24.6",
+    "react-dnd": "10.0.2",
+    "react-dnd-html5-backend": "10.0.2",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.1",
+    "react-scripts": "^3.4.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.26.3",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "eslint-plugin-jest-dom": "^3.2.3",
+    "eslint-plugin-testing-library": "^3.9.2"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "testing-library",
+      "jest-dom"
+    ],
+    "rules": {
+      "testing-library/await-async-query": "error",
+      "testing-library/no-await-sync-query": "error",
+      "testing-library/no-debug": "warn",
+      "jest-dom/prefer-checked": "error",
+      "jest-dom/prefer-enabled-disabled": "error",
+      "jest-dom/prefer-required": "error",
+      "jest-dom/prefer-to-have-attribute": "error",
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+      }
+    },
+    "extends": [
+      "plugin:testing-library/react"
+    ]
+  }
+}
